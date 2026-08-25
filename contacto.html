@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Juegos wenos</title>
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +44,31 @@
     </div>
   </div>
 </nav>
-<body class="d-flex justify-content-center align-items-center vh-100">
 
   <div class="card shadow p-4" style="width: 400px;">
 
-    <h2 class="text-center mb-4">Iniciar sesión</h2>
+    <h2 class="text-center mb-4">Contacto</h2>
+    <h6>Deja tus datos y te contactaremos a la brevedad</h6>
 
     <form>
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Nombre Completo</label>
+            <input
+          type="Nombre"
+          class="form-control"
+          id="nombre"
+          placeholder="Nombre Completo"
+        >
+        </div>
+        <div class="mb-3">
+            <label for="Telefono" class="form-label">Teléfono</label>
+            <input
+          type="Telefono"
+          class="form-control"
+          id="telefono"
+          placeholder="+569 xxxx xxxx"
+        >
+        </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
 
@@ -84,7 +104,7 @@
       </div>
 
       <button type="submit" class="btn btn-primary w-100">
-        Iniciar sesión
+        Contáctenme
       </button>
     </form>
 
