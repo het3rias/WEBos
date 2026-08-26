@@ -23,6 +23,7 @@ nav{
 
 .card{
     background-color: rgba(0, 0, 0, 0.5);
+    min-height: 550px;
 }
 
 .card-title{
@@ -35,4 +36,16 @@ nav{
 .btn{
     background-color: darkcyan;
     border-color: darkcyan;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-body .btn {
+    margin-top: auto;
 }
