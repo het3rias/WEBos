@@ -2,9 +2,92 @@ body {
     margin: 0;
     min-height: 100vh;
 
-    background-image: url("imagenes/solaire.jpg");
+    background-image: url("../imagenes/solaire.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.navbar .nav-link,
+.navbar .nav-link.active,
+.navbar .navbar-brand {
+    color: #d4af37;
+}
+.navbar .nav-link:hover {
+    color: white;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+form .form-label {
+    color: #d4af37;
+}
+
+form .form-control {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    color: white;
+}
+
+form .form-control:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #d4af37;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.2);
+    color: white;
+}
+
+form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+form .form-check-label {
+    color: white;
+}
+
+form .form-check-input {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: #d4af37;
+}
+
+form .form-check-input:checked {
+    background-color: #d4af37;
+    border-color: #d4af37;
+}
+
+form .btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: black;
+}
+
+form .btn-primary:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.contacto {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    color: white;
+}
+
+h6{
+    color: #d4af37;
+}
+h2{
+    color: #d4af37;
 }
