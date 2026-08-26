@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("../imagenes/ds2background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.navbar .nav-link,
+.navbar .nav-link.active,
+.navbar .navbar-brand {
+    color: #d4af37;
+}
+.navbar .nav-link:hover {
+    color: white;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-title{
+    color: rgb(120, 165, 165);
+}
+.card-text{
+    color: aliceblue;
+}
+
+.btn{
+    background-color: darkcyan;
+    border-color: darkcyan;
+}
