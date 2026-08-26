@@ -15,10 +15,30 @@ body {
     background-attachment: fixed;
 }
 .card{
-    background-color: transparent ;
+    background-color: rgba(0, 0, 0, 0.5);
     border: none ;
+    height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
 }
 .card-title,
 .card-text{
     color: #ffff;
+}
+.card-body .btn {
+  margin-top: auto;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.navbar .nav-link,
+.navbar .nav-link.active,
+.navbar .navbar-brand {
+    color: #d4af37;
+}
+.navbar .nav-link:hover {
+    color: white;
 }

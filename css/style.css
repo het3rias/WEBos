@@ -15,3 +15,15 @@ h1{
 background-color: black;
 
 }
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.navbar .nav-link,
+.navbar .nav-link.active,
+.navbar .navbar-brand {
+    color: #d4af37;
+}
+.navbar .nav-link:hover {
+    color: white;
+}
